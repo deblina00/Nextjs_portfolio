@@ -14,11 +14,11 @@ import { CiLinkedin, CiFacebook } from "react-icons/ci";
 //       title: "Footer - My Portfolio",
 //       description:
 //         "Get in touch with me for collaborations, projects, or any inquiries.",
-//       url: "https://my-portfolio-website-chi-dusky.vercel.app/Footer",
+//       url: "https://nextjs-portfolio-dqwq.vercel.app/Footer",
 //       siteName: "My Portfolio",
 //       images: [
 //         {
-//           url: "https://my-portfolio-website-chi-dusky.vercel.app/images/LOGOO.png", // Replace with your actual OG image URL
+//           url: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png", // Replace with your actual OG image URL
 //           width: 1200,
 //           height: 630,
 //           alt: "Footer",

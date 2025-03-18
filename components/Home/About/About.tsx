@@ -134,11 +134,11 @@ export const generateMetadata = (): Metadata => {
     openGraph: {
       title: "About Me - My Portfolio",
       description: "Learn more about my journey, skills, and experience.",
-      url: "https://my-portfolio-website-chi-dusky.vercel.app/about",
+      url: "https://nextjs-portfolio-dqwq.vercel.app/about",
       siteName: "My Portfolio",
       images: [
         {
-          url: "https://my-portfolio-website-chi-dusky.vercel.app/images/LOGOO.png", // Replace with your OG image URL
+          url: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png", // Replace with your OG image URL
           width: 1200,
           height: 630,
           alt: "About Me",
@@ -154,8 +154,8 @@ const About = () => {
     "@context": "https://schema.org",
     "@type": "Person",
     name: "Your Name",
-    url: "https://my-portfolio-website-chi-dusky.vercel.app/about",
-    image: "https://my-portfolio-website-chi-dusky.vercel.app/images/LOGOO.png",
+    url: "https://nextjs-portfolio-dqwq.vercel.app/about",
+    image: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png",
     jobTitle: "Frontend Developer",
     worksFor: {
       "@type": "Organization",

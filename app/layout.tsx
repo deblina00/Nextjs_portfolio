@@ -70,14 +70,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://my-portfolio-website-chi-dusky.vercel.app/", // Change to your actual domain
+    url: "https://nextjs-portfolio-dqwq.vercel.app/", // Change to your actual domain
     siteName: "My Portfolio",
     title: "My Portfolio - Web Developer & Designer",
     description:
       "A modern portfolio showcasing my web development projects, skills, and expertise in React, Next.js, and UI/UX design.",
     images: [
       {
-        url: "https://my-portfolio-website-chi-dusky.vercel.app/images/LOGOO.png", // Provide an actual OG image URL
+        url: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png", // Provide an actual OG image URL
         width: 1200,
         height: 630,
         alt: "My Portfolio Website",
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
   //   title: "My Portfolio - Web Developer & Designer",
   //   description:
   //     "A modern portfolio showcasing my web development projects, skills, and expertise in React, Next.js, and UI/UX design.",
-  //   images: ["https://my-portfolio-website-chi-dusky.vercel.app/images/LOGOO.png"],
+  //   images: ["https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png"],
   // },
 };
 
@@ -109,7 +109,7 @@ export default function RootLayout({
             "@context": "https://schema.org",
             "@type": "Person",
             name: "Deblina Roy",
-            url: "https://my-portfolio-website-chi-dusky.vercel.app/",
+            url: "https://nextjs-portfolio-dqwq.vercel.app/",
             sameAs: [
               "https://github.com/deblina00",
               "https://www.linkedin.com/in/deblina-roy-b7059a225/",
