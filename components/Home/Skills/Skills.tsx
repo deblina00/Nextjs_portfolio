@@ -44,11 +44,11 @@ export const generateMetadata = (): Metadata => {
     openGraph: {
       title: "My Skills - My Portfolio",
       description: "Discover the technologies and tools I excel in.",
-      url: "https://nextjs-portfolio-dqwq.vercel.app/skills",
+      url: "https://nextjs-portfolio-dqwq.vercel.app/#skills",
       siteName: "My Portfolio",
       images: [
         {
-          url: "https://nextjs-portfolio-dqwq.vercel.app/images/skills-og.png", // Replace with your actual OG image URL
+          url: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png", // Replace with your actual OG image URL
           width: 1200,
           height: 630,
           alt: "Skills",
@@ -66,7 +66,7 @@ const Skills = () => {
    "@type": "ItemList",
    name: "Skills",
    description: "A list of technologies and tools I specialize in.",
-   url: "https://nextjs-portfolio-dqwq.vercel.app/skills",
+   url: "https://deblinaroy.vercel.app/#skills",
    itemListElement: skillsData.map((skill, index) => ({
      "@type": "DefinedTerm",
      position: index + 1,

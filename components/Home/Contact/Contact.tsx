@@ -45,11 +45,11 @@ export const generateMetadata = (): Metadata => {
       title: "Contact Me - My Portfolio",
       description:
         "Get in touch with me for collaborations, projects, or any inquiries.",
-      url: "https://nextjs-portfolio-dqwq.vercel.app/contact",
+      url: "https://deblinaroy.vercel.app/#contact",
       siteName: "My Portfolio",
       images: [
         {
-          url: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png", // Replace with your actual OG image URL
+          url: "https://deblinaroy.vercel.app/images/LOGOO.png", // Replace with your actual OG image URL
           width: 1200,
           height: 630,
           alt: "Contact Page",
@@ -64,7 +64,7 @@ const Contact = () => {
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    url: "https://nextjs-portfolio-dqwq.vercel.app/contact",
+    url: "https://deblinaroy.vercel.app/#contact",
     name: "Contact Me",
     description:
       "Get in touch with me for collaborations, projects, or any inquiries.",

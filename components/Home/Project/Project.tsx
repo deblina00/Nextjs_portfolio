@@ -57,11 +57,11 @@ export const generateMetadata = (): Metadata => {
       title: "My Projects - My Portfolio",
       description:
         "Explore the projects I have built using Next.js, React, and more.",
-      url: "https://nextjs-portfolio-dqwq.vercel.app/projects",
+      url: "https://deblinaroy.vercel.app/#projects",
       siteName: "My Portfolio",
       images: [
         {
-          url: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png", // Replace with your OG image URL
+          url: "https://deblinaroy.vercel.app/images/LOGOO.png", // Replace with your OG image URL
           width: 1200,
           height: 630,
           alt: "Projects",
@@ -79,7 +79,7 @@ const schemaData = {
   "@type": "ItemList",
   name: "My Projects",
   description: "A collection of projects built using Next.js, React, and more.",
-  url: "https://nextjs-portfolio-dqwq.vercel.app/projects",
+  url: "https://deblinaroy.vercel.app/#projects",
   itemListElement: projectData.map((project, index) => ({
     "@type": "CreativeWork",
     position: index + 1,

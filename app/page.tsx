@@ -23,12 +23,12 @@ export const metadata = {
   openGraph: {
     title: "Your Portfolio",
     description: "Showcasing my skills and projects in web development.",
-    url: "https://nextjs-portfolio-dqwq.vercel.app/",
+    url: "https://deblinaroy.vercel.app/",
     siteName: "Your Portfolio",
     type: "website",
     images: [
       {
-        url: "https://nextjs-portfolio-dqwq.vercel.app/LOGOO.png",
+        url: "https://deblinaroy.vercel.app/LOGOO.png",
         width: 1200,
         height: 630,
       },

@@ -44,7 +44,6 @@ const Nav = ({ openNav }: Props) => {
           alt="LOGO"
           width={170}
           height={170}
-          loading="lazy"
           priority
           className="ml-[-1.5rem] sm:ml-0"
         />
