@@ -39,6 +39,7 @@ const Footer = () => {
           alt="logo"
           width={200}
           height={180}
+          loading="lazy"
           className="mx-auto"
         />
       </div>

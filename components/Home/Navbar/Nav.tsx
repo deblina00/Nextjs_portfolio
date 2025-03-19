@@ -44,6 +44,7 @@ const Nav = ({ openNav }: Props) => {
           alt="LOGO"
           width={170}
           height={170}
+          loading="lazy"
           priority
           className="ml-[-1.5rem] sm:ml-0"
         />
@@ -61,9 +62,7 @@ const Nav = ({ openNav }: Props) => {
           {/* Button */}
           <div className="flex items-center space-x-4">
             <button className="md:px-10 md:py-3 px-8 py-3 text-white font-semibold sm:text-base text-sm bg-[#F78F42] hover:bg-white hover:text-black transition-all duration-200 rounded-lg">
-              <a href="#contacts">
-                Contact Me
-              </a>
+              <a href="#contacts">Contact Me</a>
             </button>
             {/* Menu Bar */}
             <HiBars3BottomRight
@@ -78,7 +77,3 @@ const Nav = ({ openNav }: Props) => {
 };
 
 export default Nav;
-
-
-
-

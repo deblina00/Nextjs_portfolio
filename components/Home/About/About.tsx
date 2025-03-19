@@ -241,6 +241,7 @@ const About = () => {
                 alt="image"
                 width={80}
                 height={80}
+                loading="lazy"
                 className="mx-auto"
               />
               <p className="mt-3 font-bold text-xl text-white">{stat.value}</p>

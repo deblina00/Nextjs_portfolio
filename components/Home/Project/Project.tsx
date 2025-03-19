@@ -121,6 +121,7 @@ const schemaData = {
                   alt={project.title}
                   width={300}
                   height={200}
+                  loading="lazy"
                   className="w-full rounded-md"
                 />
               </Link>

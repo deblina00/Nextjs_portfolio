@@ -20,6 +20,7 @@ const SkillCard = ({ skill }: Props) => {
         alt={title}
         width={80}
         height={80}
+        loading="lazy"
         className="object-cover mx-auto"
       />
       <h4 className="text-[18px] mt-4 text-white font-[600]">{title}</h4>
