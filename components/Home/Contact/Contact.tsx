@@ -49,7 +49,7 @@ export const generateMetadata = (): Metadata => {
       siteName: "My Portfolio",
       images: [
         {
-          url: "https://deblinaroy.vercel.app/images/LOGOO.png", // Replace with your actual OG image URL
+          url: "/Deblinaportfolio.png", // Replace with your actual OG image URL
           width: 1200,
           height: 630,
           alt: "Contact Page",

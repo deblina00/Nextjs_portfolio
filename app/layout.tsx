@@ -76,7 +76,7 @@ export const metadata: Metadata = {
       "A modern portfolio showcasing my web development projects, skills, and expertise in React, Next.js, and UI/UX design.",
     images: [
       {
-        url: "https://deblinaroy.vercel.app/images/LOGOO.png", // Provide an actual OG image URL
+        url: "/Deblinaportfolio.png", // Provide an actual OG image URL
         width: 1200,
         height: 630,
         alt: "My Portfolio Website",
