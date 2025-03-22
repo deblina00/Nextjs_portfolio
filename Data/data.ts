@@ -98,14 +98,14 @@ export const projectData = [
     title: "My Awesome Portfolio with Next.Js, Typescript & Tailwind CSS",
     description: "A brief overview of the project.",
     image: "/images/portfolio.webp",
-    url: "",
+    url: "https://deblinaroy.vercel.app/",
   },
   {
     id: 5,
     title: "An Advanced Medical & Health Care Website with Next.Js",
     description: "A brief overview of the project.",
     image: "/images/medical.webp",
-    url: "",
+    url: "https://medical-website-pied.vercel.app/",
   },
   {
     id: 6,
