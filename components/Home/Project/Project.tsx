@@ -39,64 +39,30 @@
 
 // export default Project;
 
-
-
 import SectionHeading from "@/components/Helper/SectionHeading";
 import { projectData } from "@/Data/data";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
-import type { Metadata } from "next";
-
-export const generateMetadata = (): Metadata => {
-  return {
-    title: "My Projects - My Portfolio",
-    description:
-      "Explore the projects I have built using Next.js, React, and more.",
-    openGraph: {
-      title: "My Projects - My Portfolio",
-      description:
-        "Explore the projects I have built using Next.js, React, and more.",
-      url: "https://deblinaroy.vercel.app/#projects",
-      siteName: "My Portfolio",
-      images: [
-        {
-          url: "https://deblinaroy.vercel.app/images/LOGOO.png", // Replace with your OG image URL
-          width: 1200,
-          height: 630,
-          alt: "Projects",
-        },
-      ],
-      type: "website",
-    },
-  };
-};
+import React, { useEffect } from "react";
+import { client } from "@/sanity/lib/client";
 
 const Project = () => {
+  async function fetchBlog() {
+    try {
+      const query = `*[_type=="project"]{title, description, image}`;
+      const data = await client.fetch(query);
+      console.log(data);
+    } catch (error) {
+      console.error("Error fetching blogs:", error);
+    }
+  }
 
-const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "ItemList",
-  name: "My Projects",
-  description: "A collection of projects built using Next.js, React, and more.",
-  url: "https://deblinaroy.vercel.app/#projects",
-  itemListElement: projectData.map((project, index) => ({
-    "@type": "CreativeWork",
-    position: index + 1,
-    name: project.title,
-    description: project.description,
-    url: project.url,
-    image: project.image,
-  })),
-};
+  useEffect(() => {
+    fetchBlog();
+  }, []);
 
   return (
     <div id="projects" className="pt-16 pb-16 bg-[#0f0f10]">
-      {/* Schema.org structured data */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
 
       <SectionHeading>
         Latest <span className="text-[#F78F42]">Projects</span>
@@ -136,10 +102,3 @@ const schemaData = {
 };
 
 export default Project;
-
-
-
-
-
-
-

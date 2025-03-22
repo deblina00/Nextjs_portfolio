@@ -3,32 +3,6 @@ import React from "react";
 import { FaGithub, FaInstagram, FaTwitter } from "react-icons/fa";
 import { CiLinkedin, CiFacebook } from "react-icons/ci";
 
-// import { Metadata } from "next";
-
-// export const generateMetadata = (): Metadata => {
-//   return {
-//     title: "Footer - My Portfolio",
-//     description:
-//       "Get in touch with me for collaborations, projects, or any inquiries.",
-//     openGraph: {
-//       title: "Footer - My Portfolio",
-//       description:
-//         "Get in touch with me for collaborations, projects, or any inquiries.",
-//       url: "https://nextjs-portfolio-dqwq.vercel.app/Footer",
-//       siteName: "My Portfolio",
-//       images: [
-//         {
-//           url: "https://nextjs-portfolio-dqwq.vercel.app/images/LOGOO.png", // Replace with your actual OG image URL
-//           width: 1200,
-//           height: 630,
-//           alt: "Footer",
-//         },
-//       ],
-//       type: "website",
-//     },
-//   };
-// };
-
 const Footer = () => {
   return (
     <div className="pb-16 bg-[#050709]">

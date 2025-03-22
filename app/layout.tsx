@@ -68,15 +68,14 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    locale: "en_US",
-    url: "https://deblinaroy.vercel.app/", // Change to your actual domain
+    url: "https://deblinaroy.vercel.app",
     siteName: "My Portfolio",
     title: "My Portfolio - Web Developer & Designer",
     description:
       "A modern portfolio showcasing my web development projects, skills, and expertise in React, Next.js, and UI/UX design.",
     images: [
       {
-        url: "/Deblinaportfolio.png", // Provide an actual OG image URL
+        url: "/Deblinaporfolio.png", // Provide an actual OG image URL
         width: 1200,
         height: 630,
         alt: "My Portfolio Website",

@@ -125,47 +125,8 @@ import { aboutInfo } from "@/Data/data";
 import Image from "next/image";
 import React from "react";
 import { FaCheck } from "react-icons/fa";
-import type { Metadata } from "next";
-
-export const generateMetadata = (): Metadata => {
-  return {
-    title: "About Me - My Portfolio",
-    description: "Learn more about my journey, skills, and experience.",
-    openGraph: {
-      title: "About Me - My Portfolio",
-      description: "Learn more about my journey, skills, and experience.",
-      url: "https://deblinaroy.vercel.app/#about",
-      siteName: "My Portfolio",
-      images: [
-        {
-          url: "https://deblinaroy.vercel.app/images/LOGOO.png", // Replace with your OG image URL
-          width: 1200,
-          height: 630,
-          alt: "About Me",
-        },
-      ],
-      type: "website",
-    },
-  };
-};
 
 const About = () => {
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Your Name",
-    url: "https://deblinaroy.vercel.app/about",
-    image: "https://deblinaroy.vercel.app/images/LOGOO.png",
-    jobTitle: "Frontend Developer",
-    worksFor: {
-      "@type": "Organization",
-      name: "Your Company Name",
-    },
-    sameAs: [
-      "https://www.linkedin.com/in/your-profile",
-      "https://github.com/your-github",
-    ],
-  };
 
   const skills = ["Frontend Development", "React JS Development"];
 
@@ -198,12 +159,6 @@ const About = () => {
       <SectionHeading>
         About <span className="text-[#F78F42]">Me</span>
       </SectionHeading>
-
-      {/* Schema Markup */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      />
 
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20">
         {/* Text Content */}
