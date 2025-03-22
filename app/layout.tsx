@@ -52,6 +52,7 @@ const font = Sora({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://deblinaroy.vercel.app"),
   title: {
     default: "My Portfolio",
     template: "%s - My Portfolio",
