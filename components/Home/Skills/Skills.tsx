@@ -29,61 +29,15 @@
 
 // export default Skills;
 
-
-import type { Metadata } from "next";
 import SectionHeading from "@/components/Helper/SectionHeading";
 import { skillsData } from "@/Data/data";
 import React from "react";
 import SkillCard from "./SkillCard";
-import Script from "next/script";
-
-// export const generateMetadata = (): Metadata => {
-//   return {
-//     title: "My Skills - My Portfolio",
-//     description: "Discover the technologies and tools I excel in.",
-//     openGraph: {
-//       title: "My Skills - My Portfolio",
-//       description: "Discover the technologies and tools I excel in.",
-//       url: "https://nextjs-portfolio-dqwq.vercel.app/#skills",
-//       siteName: "My Portfolio",
-//       images: [
-//         {
-//           url: "/Deblinaportfolio.png", 
-//           width: 1200,
-//           height: 630,
-//           alt: "Skills",
-//         },
-//       ],
-//       type: "website",
-//     },
-//   };
-// };
 
 const Skills = () => {
 
-//  const schemaData = {
-//    "@context": "https://schema.org",
-//    "@type": "ItemList",
-//    name: "Skills",
-//    description: "A list of technologies and tools I specialize in.",
-//    url: "https://deblinaroy.vercel.app/#skills",
-//    itemListElement: skillsData.map((skill, index) => ({
-//      "@type": "DefinedTerm",
-//      position: index + 1,
-//      name: skill.title,
-//      description: `${skill.title} proficiency: ${skill.percent}`,
-//    })),
-//  };
-
-
   return (
     <div id="skills" className="pt-16 pb-16 bg-[#050709]">
-      {/* JSON-LD for SEO
-      <Script
-        type="application/ld+json"
-        strategy="afterInteractive"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
-      /> */}
 
       <SectionHeading>
         My <span className="text-[#F78F42]">Skills</span>
